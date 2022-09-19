@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <a href="file:///C:/Users/nancy/Desktop/ProgramacionWeb/Practicas%20html%7D/html2.html/index.html">
+        <img src="botonregresar.png" width="120"
+        height="50" alt="Regresar">
+    </a>
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <h1>Visita al campus local</h1>
+    <p>Llene este formulario para ayudarnos a mejorar la visita al campus</p>
+
+    <form method="post" action="http://www.deitel.com">
+
+        <input type="hidden" name="destinatario"
+        value = "deitel@deitel.com">
+
+        <input type="hidden" name="asunto"
+        value = "Formulario de retroalimentaci&oacute;n">
+
+        <input type="hidden" name="redirigir"
+        value = "principal.html">
+
+
+        <p>
+            <label>Nombre:
+            <input name="nombre" type = "text" size="25"></label>
+        </p>
+
+        <p>
+            <label>Campus:
+            <input name="campus" type = "text" size="25"></label>
+        </p>
+
+        <p>
+            <strong>Cosas que le gustaron:</strong><br>
+            <label">Campus
+                <input name="cosasgustaron" type="checkbox"
+                value="campus"></label>
+
+            <label">Estudiantes
+                <input name="cosasgustaron" type="checkbox"
+                value="estudiantes"></label>
+        
+            <label">Ubicacion
+                <input name="cosasgustaron" type="checkbox"
+                value="ubicacion"></label>
+
+            <label">Ambiente
+                <input name="cosasgustaron" type="checkbox"
+                value="ambiente"></label>
+
+            <label">Dormitorios
+                <input name="cosasgustaron" type="checkbox"
+                value="dormitorios"></label>
+
+            <label">Deportes
+                <input name="cosasgustaron" type="checkbox"
+                value="deportes"></label>
+        </p>
+
+        <p>
+            <strong>C&oacute;mo supo de nuestra universidad:</strong><br>
+            <label>Amigos
+                <input name="comositio" type="radio"
+                value="amigos" checked></label>
+
+            <label>Televisión
+                <input name="comositio" type="radio"
+                value="television" checked></label>
+
+            <label>Internet
+                <input name="comositio" type="radio"
+                value="internet" checked></label>
+
+            <label>Otro
+                <input name="comositio" type="radio"
+                value="otro" checked></label>
+        </p>
+
+        <p>
+            <label for="comentarios">Comentarios:
+            <textarea id="comentarios" name="comentarios" cols="30" rows="10"></textarea></label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+</body>
+</html>

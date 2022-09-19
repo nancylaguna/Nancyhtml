@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <a href="file:///C:/Users/nancy/Desktop/ProgramacionWeb/Practicas%20html%7D/html3.html/index.html">
+        <img src="botonregresar.png" width="120"
+        height="50" alt="Regresar">
+    </a>
+    <title>Registro Web</title>
+</head>
+<body>
+    <form method = "post" autocomplete = "on">
+        <p><label>Primer nombre:<input type = "text" id= "primerNombre"
+             placeholder = "Primer nombre"/> (Primer nombre)
+        </label></p>
+        <p><label>Apellido:
+            <input type = "text" id= "apellido"
+            placeholder = "Apellido" /> (Apellido)
+        </label></p>
+        <p><label>Email:
+            <input type = "email" id = "email"
+            placeholder = "nombre@dominio.com" /> (nombre@dominio.com)
+        </label></p>
+
+        <p><label for = "listaTexto">Año de universidad:
+            <input type = "text" id = "listaTexto"
+            placeholder = "Seleccione un año" list = "año" />
+            <datalist id ="año">
+                <option value = "Primer año">
+                <option value = "Segundo año">
+                <option value ="Tercer año">
+            </datalist>
+        </label></p>
+        
+        <p><input type = "submit" value = "Enviar" />
+        <input type = "reset" value = "Borrar" /></p>
+    </form>
+</body>
+</html>
