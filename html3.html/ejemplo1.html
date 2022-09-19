@@ -1,98 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <a href="/Nancyhtml/index.html">
-        <img src="botonregresar.png" width="120"
-        height="50" alt="Regresar">
+        <img src="botonregresar.png" width="120" height="50" alt="Regresar">
     </a>
     <title>Nuevos tipos de input de HTML5</title>
 </head>
+
 <body>
     <h1>Demo de nuevos tipos de input de HTML5</h1>
-    <p>Este formulario demuestra los nuevos tipos de elementos input de HTML5 y los atributos placeholder, required y autofocus.</p>
+    <p>Este formulario demuestra los nuevos tipos de elementos input de HTML5 y los atributos placeholder, required y
+        autofocus.</p>
     <form method="post" action="http://www.deitel.com">
-    <p>
-        <label>Color:
+        <p><label>Color:
             <input type="color" autofocus />
             (Código hexadecimal como #ADD8E6)
-        </label>
-    </p>
-    <p><label>Fecha:
-        <input type="date"/>
-        (aaaa-mm-dd)
-    </label></p>
-    <p>
-        <label>Hora y fecha:
-            <input type="datetime"/>
+        </label></p>
+
+        <p><label>Fecha:
+            <input type="date" />
+            (aaaa-mm-dd)
+        </label></p>
+
+        <p><label>Hora y fecha:
+            <input type="datetime" />
             (aaaa-mm-ddThh:mm+ff:gg, como 27-01-2012T03:15)
-        </label>
-    </p>
-    <p>
-        <label>Hora y fecha-local:
-            <input type="datetime-local"/>
+        </label></p>
+
+        <p><label>Hora y fecha-local:
+            <input type="datetime-local" />
             (aaaa-mm-ddThh:mm, como 2012-01-27T03_15)
-        </label>
-    </p>
-    <p>
-        <label>Email:
-            <input type="email" placeholder="nombre@dominio.com"
-            required /> (nombre@dominio.com)
-        </label>
-    </p>
-    <p>
-        <label>Mes:
-            <input type="month"/> (aaaa-mm)
-        </label>
-    </p>
-    <p>
-        <label>Número:
-            <input type="number"
-            min="0"
-            max="7"
-            step="1"
-            value="4"/>
-        </label> (Escriba un número entre 0 y 7)
-    </p>
-    <p>
-        <label>Rango:
-            0 <input type="range"
-            min="0"
-            max="20"
-            value="10"/> 20
-        </label>
-    </p>
-    <p>
-        <label>Búsqueda:
-            <input type="search" placeholder="consulta de búsqueda"/>
-        </label> (Escriba aquí su consulta de búsqueda.)
-    </p>
-    <p>
-        <label>Tel:
-            <input type="tel" placeholder="(###) ###-####"
-            pattern="\(\d{3} +\d{3}-\d{4}" required/>
-        </label>
-    </p>
-    <p>
-        <label>Hora:
-            <input type="time"/> (hh:mm)
-        </label>
-    </p>
-    <p><label>URL:
-        <input type="url"
-        placeholder="http://www.nombredominio.com" />
-        (http://www.nombredominio.com)
-    </label></p>
-    <p>
-        <label>Semana:
-            <input type="week"/>
+        </label></p>
+
+        <p><label>Email:
+            <input type="email" placeholder="nombre@dominio.com" required /> (nombre@dominio.com)
+        </label></p>
+
+        <p><label>Mes:
+            <input type="month" /> (aaaa-mm)
+        </label></p>
+
+        <p><label>Número:
+            <input type="number" min="0" max="7" step="1" value="4" />
+        </label> (Escriba un número entre 0 y 7)</p>
+
+        <p><label>Rango:
+            0 <input type="range" min="0" max="20" value="10" /> 20
+        </label></p>
+
+        <p><label>Búsqueda:
+            <input type="search" placeholder="consulta de búsqueda" />
+        </label> (Escriba aquí su consulta de búsqueda.)</p>
+
+        <p><label>Tel:
+            <input type="tel" placeholder="(###) ###-####" pattern="\(\d{3} +\d{3}-\d{4}" required />
+        </label></p>
+
+        <p><label>Hora:
+            <input type="time" /> (hh:mm)
+        </label></p>
+
+        <p><label>URL:
+            <input type="url" placeholder="http://www.nombredominio.com" />
+            (http://www.nombredominio.com)
+        </label></p>
+
+        <p><label>Semana:
+            <input type="week" />
             (aaaa-Wnn, tal como 2012-W01)
-        </label>
-    </p>
-    <p>
-        <input type="submit" value="Enviar"/>
-        <input type="reset" value="Borrar"/>
-    </p>
-</form>
+        </label></p>
+
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" /></p>
+            
+    </form>
 </body>
 </html>
