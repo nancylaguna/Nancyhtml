@@ -1,14 +1,128 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <a href="/Nancyhtml/index.html">
-        <img src="botonregresar.png" width="120"
-        height="50" alt="Regresar">
+        <img src="botonregresar.png" width="120" height="50" alt="Regresar">
     </a>
-    <title>Document</title>
+    <title>Ejercicio 7</title>
 </head>
+
 <body>
-    
+    <h1>Ejercicio 7</h1>
+    <section>
+        <h2>3.2.1 Input tipo color</h2>
+        <p style="text-align: justify;">El <strong>tipo input color </strong>(figura 3.1 líneas 20 y 21) permite al
+            usuario introducir un color. Al momento de escribir este libro, algunos navegadores despliegan el tipo de
+            input color como un campo de texto en donde el usuario puee introducir un código hexadecimal o el nombre de
+            un color. Hay dos navegadores, Chrome y Opera, que muestran un <em>selector de color</em> similar al cuadro
+            de diálogo de colores de Microsoft Windows, que se muestra en la figura 3.2. En el futuro cuando se haga
+            clic en un elemento input color, es muy probable que el resto de los navegadores muestre un <em>selector de color </em>también.</p>
+    </section>
+    <hr>
+    <figure>
+        <img src="/img/color.png" alt="color" width="400px">
+        <figcaption><strong>Figura 3.2| </strong>Un diálogo para seleccionar colores.</figcaption>
+    </figure>
+    <hr>
+    <section>
+        <p><strong>El atributo autofocus</strong></p>
+        <p style="text-align: justify;">El <strong>atributo autofocus</strong>(figura 3.1, línea 20) (un atributo
+            opcional que puede usarse sólo en un elemento input en un formulario) otorga de manera automática el enfoque
+            al elemento input, lo que permite al usuario empezar a escribir en ese elemento de inmediato. La figura 3.3
+            muestra el uso del elemento autofocus en el elemento color (el primer elemento input en nuestro formulario),
+            como se despliega en Opera. No necesita incluir autofocus en sus formularios.</p>
+    </section>
+    <hr>
+    <figure>
+        <img src="/img/autofocus.png" alt="color" width="400px">
+        <figcaption><strong>Figura 3.3|</strong>Autofocus en el elemento input color cuando se usa el navegador Opera.
+        </figcaption>
+    </figure>
+    <hr>
+    <section>
+        <p><strong><em>validación</em></strong></p>
+        <p style="text-align:justify ;">Tradicionalmente ha sido difícil validar la entrada del usuario, como asegurar
+            que se introduzca una dirección de correcto electrónico, URL, fecha u hora en el formato adecuado. Los
+            nuevos tipos input de HTML5 cuentan con <em>validación automática</em> del lado del cliente, con lo que se
+            elimina la necesidad de agregar código simplificado de JavaScript a nuestras paginas web para validar la
+            entrada del usuario; así se reduce la cantidad de datos inválidos que se envían y, en consecuencia,
+            disminuye el trafico de internet entre el servidor y el cliente que se usa para corregir las entradas
+            invalidas.
+            <em> De todas formas el servidor debe validar toda la entrada del usuario.</em>
+        </p>
+        <p style="text-align:justify ;">
+            Cuando un usuario introduce datos en un formulario y luego lo envía (en este ejemplo, al hacer clic en el
+            botón <strong>Enviar</strong>), el navegador verifica de inmediato los elementos de validación automática
+            para asegurar que los datos sean correctos. Por ejemplo, si un usuario introduce un valor de color
+            hexadecimal incorrecto al usar un navegador que despliegue los elementos color como un campo de texto (por
+            ejemplo, Internet Explorer), aparecerá una anotación para señalar ese elemento e indicar que se introdujo un
+            valor incorrecto (figura 3.4).
+            La figura 3.5 lista cada uno de los nuevos tipos input de HTML5 y muestra ejemplos de los formatos correctos
+            requeridos para que cada tipo de datos sea válido.
+        </p>
+    </section>
+    <hr>
+    <figure>
+        <img src="/img/validacion.png" alt="color" width="400px">
+        <figcaption><strong>Figura 3.4|</strong>Validación de un elemento input color. (Actualmente ya no existe esta
+            funcionalidad en Chrome).</figcaption>
+    </figure>
+    <hr>
+    <details>
+        <summary><strong>Figura 3.5</strong> Tipos de input con validación automática</summary>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de input</th>
+                    <th>Formato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Color</td>
+                    <td>Codigo hexadecimal</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>aaaa-mm-dd</td>
+                </tr>
+                <tr>
+                    <td>Datetime</td>
+                    <td>aaaa-mm--dd</td>
+                </tr>
+                <tr>
+                    <td>Datetime-local</td>
+                    <td>aaaa-mm--ddThh:mm</td>
+                </tr>
+                <tr>
+                    <td>Month</td>
+                    <td>aaaa-mm</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td>Cuaquier valor numérico</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>nombre@dominio.com</td>
+                </tr>
+                <tr>
+                    <td>url</td>
+                    <td>http://www.nombredominio.com</td>
+                </tr>
+                <tr>
+                    <td>time</td>
+                    <td>hh:mm</td>
+                </tr>
+                <tr>
+                    <td>Week</td>
+                    <td>aaa-Knn</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
 </body>
+
 </html>
